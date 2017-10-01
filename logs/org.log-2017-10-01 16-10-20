@@ -1,0 +1,324 @@
+16:08:45 [main] [message] jEdit: jEdit home directory is C:\Users\User\Downloads\jedit_merge
+16:08:45 [main] [message] BeanShell: Beanshell Init
+16:08:45 [main] [debug] GUIUtilities: Icon th16:09:00.629 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 0
+16:09:00.733 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 0
+16:09:02.421 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 0
+16:09:02.516 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 0
+16:09:13.311 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 0
+16:09:14.517 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 1
+16:09:15.614 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 2
+16:09:16.734 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 3
+16:09:18.021 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 4
+16:09:19.325 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 5
+16:09:20.326 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 6
+16:09:21.333 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 7
+16:09:22.262 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 8
+16:09:23.229 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 9
+16:09:24.637 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 10
+16:09:26.870 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 11
+16:09:28.302 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 12
+16:09:29.966 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 13
+16:09:31.429 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 14
+16:09:32.805 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 15
+16:09:34.270 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 16
+16:09:48.461 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 17
+16:09:50.134 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 18
+16:09:51.038 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 19
+16:09:52.005 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 20
+16:09:53.005 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 21
+16:09:53.910 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 22
+16:09:54.805 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 23
+16:09:55.637 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 24
+16:09:56.525 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 25
+16:09:57.373 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 26
+16:09:58.270 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 27
+16:09:59.261 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 28
+16:10:00.189 [AWT-EventQueue-0] INFO  org.log.parse.ParseUtil - IN DISPLAY ACTION. ITERATOR: 29
+16:10:04.308 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863404275,"type":"SELECTION","start":90,"end":92,"selectedText":"\n}","stringForm":"Selection text \n} from 90 to 92. 1506863404275","selectionLength":2}
+16:10:04.310 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863404310,"type":"SELECTION","start":0,"end":92,"selectedText":"class SomeClass {\n\tpublic static void mail(String[] args){\n\t\tSystem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text class SomeClass {\n\tpublic static void mail(String[] args){\n\t\tSystem.out.print(\"hello\");\n\t}\n} from 0 to 92. 1506863404310","selectionLength":92}
+16:10:04.410 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863404410,"type":"SELECTION","start":0,"end":92,"selectedText":"class SomeClass {\n\tpublic static void mail(String[] args){\n\t\tSystem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text class SomeClass {\n\tpublic static void mail(String[] args){\n\t\tSystem.out.print(\"hello\");\n\t}\n} from 0 to 92. 1506863404410","selectionLength":92}
+16:10:07.189 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407189,"type":"SELECTION","start":90,"end":92,"selectedText":"\n}","stringForm":"Selection text \n} from 90 to 92. 1506863407189","selectionLength":2}
+16:10:07.197 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407197,"type":"SELECTION","start":90,"end":92,"selectedText":"\n}","stringForm":"Selection text \n} from 90 to 92. 1506863407197","selectionLength":2}
+16:10:07.205 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407205,"type":"SELECTION","start":67,"end":92,"selectedText":".out.print(\"hello\");\n\t}\n}","stringForm":"Selection text .out.print(\"hello\");\n\t}\n} from 67 to 92. 1506863407205","selectionLength":25}
+16:10:07.213 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407213,"type":"SELECTION","start":65,"end":92,"selectedText":"em.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text em.out.print(\"hello\");\n\t}\n} from 65 to 92. 1506863407213","selectionLength":27}
+16:10:07.221 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407221,"type":"SELECTION","start":65,"end":92,"selectedText":"em.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text em.out.print(\"hello\");\n\t}\n} from 65 to 92. 1506863407221","selectionLength":27}
+16:10:07.229 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407229,"type":"SELECTION","start":64,"end":92,"selectedText":"tem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text tem.out.print(\"hello\");\n\t}\n} from 64 to 92. 1506863407229","selectionLength":28}
+16:10:07.238 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407237,"type":"SELECTION","start":64,"end":92,"selectedText":"tem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text tem.out.print(\"hello\");\n\t}\n} from 64 to 92. 1506863407237","selectionLength":28}
+16:10:07.245 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407245,"type":"SELECTION","start":63,"end":92,"selectedText":"stem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text stem.out.print(\"hello\");\n\t}\n} from 63 to 92. 1506863407245","selectionLength":29}
+16:10:07.254 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407253,"type":"SELECTION","start":63,"end":92,"selectedText":"stem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text stem.out.print(\"hello\");\n\t}\n} from 63 to 92. 1506863407253","selectionLength":29}
+16:10:07.333 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407333,"type":"SELECTION","start":63,"end":92,"selectedText":"stem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text stem.out.print(\"hello\");\n\t}\n} from 63 to 92. 1506863407333","selectionLength":29}
+16:10:07.597 [AWT-EventQueue-0] INFO  o.g.sp.jedit.textarea.JEditTextArea - {"timestamp":1506863407597,"type":"SELECTION","start":63,"end":92,"selectedText":"stem.out.print(\"hello\");\n\t}\n}","stringForm":"Selection text stem.out.print(\"hello\");\n\t}\n} from 63 to 92. 1506863407597","selectionLength":29}
+ue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4522)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2280)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.ArrayIndexOutOfBoundsException: 41:1
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.buffer.JEditBuffer.remove(JEditBuffer.java:767)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.pressDeleteKey(ParseUtil.java:384)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.displayAction(ParseUtil.java:224)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.nextAction(ParseUtil.java:163)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ViewMain$1.valueChanged(ViewMain.java:106)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.fireSelectionValueChanged(JList.java:1796)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1810)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:154)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:685)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.setValueIsAdjusting(JList.java:2140)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.plaf.basic.BasicListUI$Handler.mouseReleased(BasicListUI.java:2796)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processMouseEvent(Component.java:6533)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processEvent(Component.java:6298)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.processEvent(Container.java:2236)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2294)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2280)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+16:08:59 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.ArrayIndexOutOfBoundsException: 41:1
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.buffer.JEditBuffer.remove(JEditBuffer.java:767)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.pressDeleteKey(ParseUtil.java:384)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.displayAction(ParseUtil.java:224)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.nextAction(ParseUtil.java:163)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ViewMain$1.valueChanged(ViewMain.java:101)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.fireSelectionValueChanged(JList.java:1796)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1810)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:164)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:211)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:405)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:415)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:459)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.setSelectionInterval(JList.java:2065)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.plaf.basic.BasicListUI$Handler.adjustSelection(BasicListUI.java:2739)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.plaf.basic.BasicListUI$Handler.mousePressed(BasicListUI.java:2695)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:280)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processMouseEvent(Component.java:6530)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processEvent(Component.java:6298)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.processEvent(Container.java:2236)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2294)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4522)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2280)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.ArrayIndexOutOfBoundsException: 41:1
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.buffer.JEditBuffer.remove(JEditBuffer.java:767)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.pressDeleteKey(ParseUtil.java:384)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.displayAction(ParseUtil.java:224)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.nextAction(ParseUtil.java:163)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ViewMain$1.valueChanged(ViewMain.java:101)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.fireSelectionValueChanged(JList.java:1796)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1810)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:154)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:685)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.setValueIsAdjusting(JList.java:2140)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.plaf.basic.BasicListUI$Handler.mouseReleased(BasicListUI.java:2796)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processMouseEvent(Component.java:6533)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processEvent(Component.java:6298)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.processEvent(Container.java:2236)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2294)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2280)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+16:09:00 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.ArrayIndexOutOfBoundsException: 41:1
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.buffer.JEditBuffer.remove(JEditBuffer.java:767)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.pressDeleteKey(ParseUtil.java:384)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.displayAction(ParseUtil.java:224)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.nextAction(ParseUtil.java:163)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ViewMain$1.valueChanged(ViewMain.java:101)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.fireSelectionValueChanged(JList.java:1796)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1810)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:164)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:211)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:405)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:415)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:459)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.setSelectionInterval(JList.java:2065)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.plaf.basic.BasicListUI$Handler.adjustSelection(BasicListUI.java:2739)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.plaf.basic.BasicListUI$Handler.mousePressed(BasicListUI.java:2695)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:280)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processMouseEvent(Component.java:6530)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processEvent(Component.java:6298)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.processEvent(Container.java:2236)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2294)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4522)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2280)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.ArrayIndexOutOfBoundsException: 41:1
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.buffer.JEditBuffer.remove(JEditBuffer.java:767)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.pressDeleteKey(ParseUtil.java:384)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.displayAction(ParseUtil.java:224)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ParseUtil.nextAction(ParseUtil.java:163)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.log.parse.ViewMain$1.valueChanged(ViewMain.java:101)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.fireSelectionValueChanged(JList.java:1796)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1810)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:184)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:154)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:685)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JList.setValueIsAdjusting(JList.java:2140)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.plaf.basic.BasicListUI$Handler.mouseReleased(BasicListUI.java:2796)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processMouseEvent(Component.java:6533)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.processEvent(Component.java:6298)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.processEvent(Container.java:2236)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEventImpl(Component.java:4889)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2294)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Container.dispatchEventImpl(Container.java:2280)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Window.dispatchEventImpl(Window.java:2746)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.Component.dispatchEvent(Component.java:4711)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.AccessController.doPrivileged(Native Method)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+16:09:02 [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+16:09:06 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+16:09:06 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+16:09:13 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Downloads\jedit_merge\)]
+16:09:16 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\User\Downloads\jedit_merge\build\settings\perspective.xml" to "C:\Users\User\Downloads\jedit_merge\build\settings\settings-backup\perspective.xml~1~"
+16:09:46 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+16:09:46 [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+16:10:03 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+16:10:04 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+16:10:04 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+16:10:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+16:10:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+16:10:07 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+16:10:08 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]

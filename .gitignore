@@ -1,0 +1,6 @@
+*/.svn/
+jedit-svn.i*
+**/.svn/
+lib/
+build/
+out/
