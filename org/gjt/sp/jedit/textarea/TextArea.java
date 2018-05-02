@@ -4758,7 +4758,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 		
 		getInputHandler().processKeyEvent(evt, 1 /* source=TEXTAREA (1) */, false);
 		if(!evt.isConsumed())
-			super.processKeyEvent(evt);	
+			super.processKeyEvent(evt);
 
 	} //}}}
 	

@@ -531,3 +531,4 @@ lang.current=en
 
 java.compiler=C:/Program Files/Java/jdk1.8.0_121/bin/javac
 java.start=C:/Program Files/Java/jdk1.8.0_121/bin/java
+c.compiler=C:/Program Files (x86)/mingw-w64/i686-7.1.0-posix-dwarf-rt_v5-rev2/mingw32/bin/gcc

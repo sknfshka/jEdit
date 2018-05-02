@@ -29,18 +29,31 @@ public class LogUtil {
 		int caret = textArea.getCaretPosition();
 		
 		if(isPrintableKey(evt)) {
+			LogDelete keyDelete = null;
+			String deletedText = textArea.getSelectedText();
+
+			if (deletedText != null) {
+				keyDelete = new LogDelete(KeyEvent.VK_DELETE, caret, evt.getModifiers(), deletedText, getDeletedCharPosition(false, textArea));
+			}
+
 			final LogCharacterKey key = new LogCharacterKey(evt.getKeyChar(), caret, evt.getKeyCode(), evt.getModifiers());
+
 			try {
+				if(keyDelete != null) {
+					log.info(mapper.writeValueAsString(keyDelete));
+				}
+
 				log.info(mapper.writeValueAsString(key));
 			} catch (Exception ex) {
 				Log.log(1, null, "cannot write json:\n", ex);
 			}
 		} else if(isServiceKey(evt)) {
-		if(isKeyForSelection(evt)) {
+			if(isKeyForSelection(evt)) {
 				return;
 			}
 
 			final LogServiceKey key = new LogServiceKey(evt.getKeyCode(), caret, evt.getModifiers());
+
 			try {
 				log.info(mapper.writeValueAsString(key));
 			} catch (Exception ex) {
@@ -58,6 +71,7 @@ public class LogUtil {
 				deletedText = getDeletedText(false, textArea);
 				key = new LogDelete(evt.getKeyCode(), caret, evt.getModifiers(), deletedText, getDeletedCharPosition(false, textArea));
 			}
+
 			try {
 				log.info(mapper.writeValueAsString(key));
 			} catch (Exception ex) {
@@ -151,6 +165,99 @@ public class LogUtil {
 				//|| keyCode == KeyEvent.VK_DELETE
 				|| keyCode == KeyEvent.VK_CAPS_LOCK
 				|| keyCode == KeyEvent.VK_INSERT;
+	}
+
+	private static String getExtension(String file) {
+		String extension = "";
+
+		int i = file.lastIndexOf('.');
+		int p = Math.max(file.lastIndexOf('/'), file.lastIndexOf('\\'));
+
+		if (i > p) {
+			extension = file.substring(i+1);
+		}
+
+		return extension;
+	}
+
+	public static void compileCSourceFile(final Buffer toCompile, final JEditTextArea textArea) {
+		String toCompilePath = toCompile.getPath();
+		String toCompileName = toCompile.getName();
+
+		if(getExtension(toCompile.getName()).toLowerCase().isEmpty()) {
+			toCompilePath += ".c";
+			toCompileName += ".c";
+		}
+
+		toCompile.save(textArea.getView(), toCompilePath);
+
+		final File output = Paths.get("out", "compileOut").toFile();
+		final File error = Paths.get("out", "compileError").toFile();
+		ArrayList<String> commands = new ArrayList<>();
+		commands.add(jEdit.getProperty("c.compiler"));
+		commands.add(toCompileName);
+		try {
+			String s;
+			final Process process = new ProcessBuilder(commands).directory(new File(toCompile.getDirectory())).redirectOutput(output).redirectError(error).start();
+			int exitCode = process.waitFor();
+			if (exitCode != 0) {
+				s = getContentOfFile(error);
+				JOptionPane.showMessageDialog(textArea, s, "Result of compilation", JOptionPane.ERROR_MESSAGE);
+			} else {
+				s = "Compilation was successful";
+				JOptionPane.showMessageDialog(textArea, s, "Result of compilation", JOptionPane.INFORMATION_MESSAGE);
+			}
+
+			try {
+				log.info(mapper.writeValueAsString(new LogCompile(s)));
+			} catch (Exception e) {
+				Log.log(Log.ERROR, null, "Cannot write copy action to json", e);
+			}
+
+			Files.deleteIfExists(output.toPath());
+			Files.deleteIfExists(error.toPath());
+		} catch (IOException e) {
+			JOptionPane.showMessageDialog(textArea, "Cannot open file for output of compiler");
+		} catch (InterruptedException e) {
+			JOptionPane.showMessageDialog(textArea, "Compiling was interrupted");
+		}
+	}
+
+	public static void runCSourceFile(final Buffer toRun, final JEditTextArea textArea) throws IOException {
+		final File output = Paths.get("out", "runOut").toFile();
+		final File error = Paths.get("out", "runError").toFile();
+		ArrayList<String> commands = new ArrayList<>();
+		commands.add(Paths.get(toRun.getDirectory(), "a.exe").toString());
+
+		try {
+			String s;
+			final Process process = new ProcessBuilder(commands).redirectOutput(output).redirectError(error).start();
+			int exitCode = process.waitFor();
+
+			String errorString = getContentOfFile(error);
+			String outputString = getContentOfFile(output);
+
+			if (!outputString.equals("")) {
+				JOptionPane.showMessageDialog(textArea, outputString, "Result of running", JOptionPane.INFORMATION_MESSAGE);
+			}
+
+			if (!errorString.equals("")){
+				JOptionPane.showMessageDialog(textArea, errorString, "Result of running", JOptionPane.ERROR_MESSAGE);
+			}
+
+			try {
+				log.info(mapper.writeValueAsString(new LogRun(!outputString.equals("") ? outputString : errorString)));
+			} catch (Exception e) {
+				Log.log(Log.ERROR, null, "Cannot write copy action to json", e);
+			}
+
+			Files.deleteIfExists(output.toPath());
+			Files.deleteIfExists(error.toPath());
+		} catch (IOException e) {
+			JOptionPane.showMessageDialog(textArea, "Cannot open file for output of compiler");
+		} catch (InterruptedException e) {
+			JOptionPane.showMessageDialog(textArea, "Run was interrupted");
+		}
 	}
 	
 	public static void compileBuffer(final Buffer toCompile, final JEditTextArea textArea) {

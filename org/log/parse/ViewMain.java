@@ -24,6 +24,8 @@ package org.log.parse;
 import org.gjt.sp.jedit.gui.KeyEventTranslator;
 import org.gjt.sp.jedit.textarea.JEditTextArea;
 import org.gjt.sp.util.Log;
+import org.log.LogCharacterKey;
+import org.log.LogDelete;
 import org.log.LogEventTypes;
 import org.log.LogItem;
 import org.log.LogKey;
@@ -93,7 +95,7 @@ public class ViewMain extends JFrame {
 				final int index = list.getSelectedIndex();
 				final int iterator = ParseUtil.getIterator();
 				
-				if(list.getSelectedValue().equals("MOVING_CURSOR")) 
+				if(list.getSelectedValue().equals("MOVING_CURSOR"))
 					return;
 				
 				if(index > iterator - 1) {
@@ -103,7 +105,7 @@ public class ViewMain extends JFrame {
 					if(isShowMessage(list.getSelectedValue()))
 						ParseUtil.nextAction(false);
 					else
-						ParseUtil.nextAction(true);
+						ParseUtil.nextAction(false);
 				} else if(index < iterator - 1) {
 					for(int i = iterator; i > index + 1; i--)
 						ParseUtil.previousAction(true);
@@ -136,14 +138,33 @@ public class ViewMain extends JFrame {
 		for(ArrayList<LogItem> sameItems : items) {
 			LogItem item = sameItems.get(0);
 			
-			String actionName = "";			
+			String actionName;
 			if(item.getType() == LogEventTypes.SERVICE_KEY) {
-				if(ParseUtil.isDeletedKey(((LogServiceKey)item).getKeyCode()))
-					actionName = "DELETE_CHAR";
-				else
-					actionName = "MOVING_CURSOR";
-			} else
-				actionName = item.getType().toString();
+				actionName = "MOVING_CURSOR";
+			} else {
+				if (item.getType() == LogEventTypes.CHARACTER_KEY) {
+					actionName = "+";
+					actionName += " \" ";
+
+					for (LogItem sameItem : sameItems) {
+						actionName += ((LogCharacterKey) sameItem).getKeyChar();
+					}
+				}
+				else if (item.getType() == LogEventTypes.DELETE_KEY){
+					actionName = "-";
+					actionName += " \" " ;
+
+					for (LogItem sameItem : sameItems) {
+						actionName += ((LogDelete) sameItem).getDeletedText();
+					}
+				}
+				else {
+					actionName = item.getType().toString();
+				}
+
+				actionName += " \" ";
+				actionName += " " + item.getTimestamp();
+			}
 					
 			res[i] = actionName;
 			i++;

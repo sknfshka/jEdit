@@ -232,7 +232,7 @@ public class jEdit
 
 		//{{{ Parse command line
 		boolean endOpts = false;
-		int level = Log.WARNING;
+		int level = Log.NOTICE;
 		String portFile = "server";
 		boolean restore = true;
 		boolean newView = true;
@@ -409,14 +409,14 @@ public class jEdit
 				// ok, this one seems to confuse newbies
 				// endlessly, so org.log it as NOTICE, not
 				// ERROR
-				Log.log(Log.NOTICE,jEdit.class,"An error occurred"
+				Log.log(Log.DEBUG,jEdit.class,"An error occurred"
 					+ " while connecting to the jEdit server instance.");
-				Log.log(Log.NOTICE,jEdit.class,"This probably means that"
+				Log.log(Log.DEBUG,jEdit.class,"This probably means that"
 					+ " jEdit crashed and/or exited abnormally");
-				Log.log(Log.NOTICE,jEdit.class,"the last time it was run.");
-				Log.log(Log.NOTICE,jEdit.class,"If you don't"
+				Log.log(Log.DEBUG,jEdit.class,"the last time it was run.");
+				Log.log(Log.DEBUG,jEdit.class,"If you don't"
 					+ " know what this means, don't worry.");
-				Log.log(Log.NOTICE,jEdit.class,e);
+				Log.log(Log.DEBUG,jEdit.class,e);
 			}
 			finally
 			{
@@ -507,7 +507,7 @@ public class jEdit
 		} //}}}
 		Log.setLogWriter(stream);
 
-		Log.log(Log.NOTICE,jEdit.class,"jEdit version " + getVersion());
+		Log.log(Log.DEBUG,jEdit.class,"jEdit version " + getVersion());
 		Log.log(Log.MESSAGE,jEdit.class,"Settings directory is "
 			+ settingsDirectory);
 
@@ -1322,7 +1322,7 @@ public class jEdit
 	 */
 	private static void addPluginJARsFromDirectory(String directory)
 	{
-		Log.log(Log.NOTICE,jEdit.class,"Loading plugins from "
+		Log.log(Log.DEBUG,jEdit.class,"Loading plugins from "
 			+ directory);
 
 		File file = new File(directory);
@@ -2777,7 +2777,7 @@ public class jEdit
 		File newSettingsDir = new File(settingsDirectory);
 		if(oldSettingsDir.exists() && !newSettingsDir.exists())
 		{
-			Log.log(Log.NOTICE,jEdit.class,"Old settings directory found (HOME/.jedit). Moving to new location ("+newSettingsDir+ ')');
+			Log.log(Log.DEBUG,jEdit.class,"Old settings directory found (HOME/.jedit). Moving to new location ("+newSettingsDir+ ')');
 			try
 			{
 				oldSettingsDir.renameTo(newSettingsDir);
@@ -2983,18 +2983,6 @@ public class jEdit
 	 */
 	public static void exit(View view, boolean reallyExit)
 	{
-
-		try {
-			//new File( Paths.get("jedit-main.log").toUri()).exists();
-			// new File (Paths.get("logs", "org.log-" + format.format(Calendar.getInstance().getTime())).toUri()).mkdirs()
-			final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
-			Path fileName = Paths.get("logs", "org.log-" + format.format(Calendar.getInstance().getTime()));
-			//new File(fileName.toUri()).mkdirs();
-			Files.copy( Paths.get("jedit-main.log"), fileName);
-		} catch (IOException e) {
-			Log.log(1, null, "error while copying org.log.", e);
-		}
-
 		// Close dialog, view.close() call need a view...
 		if(view == null)
 			view = activeView;
@@ -3052,6 +3040,8 @@ public class jEdit
 			// Save settings in case user kills the backgrounded
 			// jEdit process
 			saveSettings();
+
+			saveCurrentLog();
 		}
 		else
 		{
@@ -3085,10 +3075,22 @@ public class jEdit
 			// Close activity org.log stream
 			Log.closeStream();
 
+			saveCurrentLog();
+
 			// Byebye...
 			System.exit(0);
 		}
 	} //}}}
+
+	private static void saveCurrentLog() {
+		try {
+			final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+			Path fileName = Paths.get("logs",  format.format(Calendar.getInstance().getTime()) + ".log");
+			Files.copy( Paths.get("jedit-main.log"), fileName);
+		} catch (IOException e) {
+			Log.log(1, null, "error while copying org.log.", e);
+		}
+	}
 
 	//{{{ getEditServer() method
 	/**
@@ -3602,7 +3604,7 @@ public class jEdit
 		jEditHome = MiscUtilities.resolveSymlinks(jEditHome);
 
 		try {
-			final BufferedWriter bw  = Files.newBufferedWriter(Paths.get("jedit-main.log"), Charset.defaultCharset());
+			final BufferedWriter bw  = Files.newBufferedWriter(Paths.get("jedit-main.log"), Charset.forName("UTF8"));
 			Log.setLogWriter(bw);
 			Log.log(Log.MESSAGE,jEdit.class,"jEdit home directory is " + jEditHome);
 			} catch (IOException e) {

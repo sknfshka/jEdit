@@ -67,7 +67,7 @@ public class Log
 	 * The maximum number of org.log messages that will be kept in memory.
 	 * @since jEdit 2.6pre5
 	 */
-	public static int MAXLINES = 500;
+	public static int MAXLINES = 5000;
 
 	/**
 	 * Debugging message urgency. Should be used for messages only
@@ -88,7 +88,7 @@ public class Log
 	 * affect the user.
 	 * @since jEdit 2.2pre2
 	 */
-	public static final int NOTICE = 5;
+	public static final int NOTICE = 10;
 
 	/**
 	 * Warning urgency. Should be used for messages that warrant
@@ -370,7 +370,7 @@ public class Log
 	static
 	{
 		LOCK = new Object();
-		level = WARNING;
+		level = NOTICE;
 
 		realOut = System.out;
 		realErr = System.err;
@@ -419,28 +419,29 @@ public class Log
 		String fullMessage = timeFormat.format(new Date()) + " ["+Thread.currentThread().getName()+"] [" + urgencyToString(urgency) + "] " + source
 			+ ": " + message;
 
-		try
-		{
-			log[logLineCount] = fullMessage;
-			if(++logLineCount >= log.length)
-			{
-				wrap = true;
-				logLineCount = 0;
-			}
-
-			if(stream != null)
-			{
-				stream.write(fullMessage);
-				stream.write(lineSep);
-			}
-		}
-		catch(Exception e)
-		{
-			e.printStackTrace(realErr);
-		}
 
 		if(urgency >= level)
 		{
+			try
+			{
+				log[logLineCount] = fullMessage;
+				if(++logLineCount >= log.length)
+				{
+					wrap = true;
+					logLineCount = 0;
+				}
+
+				if(stream != null)
+				{
+					stream.write(fullMessage);
+					stream.write(lineSep);
+				}
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace(realErr);
+			}
+
 			if(urgency == ERROR)
 				realErr.println(fullMessage);
 			else

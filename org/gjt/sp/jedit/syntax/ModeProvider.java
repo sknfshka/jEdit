@@ -187,7 +187,7 @@ public class ModeProvider
 	{
 		String fileName = (String)mode.getProperty("file");
 
-		Log.log(Log.NOTICE,this,"Loading edit mode " + fileName);
+		Log.log(Log.DEBUG,this,"Loading edit mode " + fileName);
 
 		XMLReader parser;
 		try

@@ -113,11 +113,11 @@ public class JEditTextArea extends TextArea
 	}
 
 	public void compileBuffer(final Buffer toCompile) {
-		LogUtil.compileBuffer(toCompile, this);
+		LogUtil.compileCSourceFile(toCompile, this);
 	}
 
 	public void runBuffer(final Buffer toRun) throws IOException {
-		LogUtil.runBuffer(toRun, this);
+		LogUtil.runCSourceFile(toRun, this);
 	}
 
 	public void nextAction() {
